@@ -11,7 +11,7 @@ function getHTML(options, callback) {
     });
 
     response.on('end', function () {
-      console.log("end")
+      // console.log("end")
       callback(dataString);
     });
 
